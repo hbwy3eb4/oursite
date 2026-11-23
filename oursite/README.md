@@ -9,29 +9,29 @@ $readme = @"
 
 \`\`\`
 oursite/
-├── core/                      # ОБЩЕЕ приложение (модели для всех)
-│   ├── models.py              → Employee, Department, Position
-│   └── ...
-├── home/                      # Главная страница + базовый шаблон
-│   ├── templates/
-│   │   ├── base.html          ← Шапка сайта с навигацией
-│   │   └── home/index.html
-│   └── ...
-├── app_ArtemR/                # [Название отдела]
-├── app_Blue_Side/             # [Название отдела]
-├── app_dd/                    # [Название отдела]
-├── app_German/                # [Название отдела]
-├── app_Islam/                 # [Название отдела]
-├── app_Kir_Tarasov/           # [Название отдела]
-├── app_Vica/                  # [Название отдела]
-├── app_Vyacheslav/            # [Название отдела]
-├── oursite/                   # Конфигурация проекта
-│   ├── settings.py
-│   ├── urls.py                # Роутинг на все приложения
-│   └── ...
-├── manage.py
-├── requirements.txt
-└── db.sqlite3                 # Единая база данных (создаётся автоматически)
+├── core/                      # ОБЩЕЕ приложение (модели для всех)     
+│   ├── models.py              → Employee, Department, Position  
+│   └── ...   
+├── home/                      # Главная страница + базовый шаблон   
+│   ├── templates/   
+│   │   ├── base.html          ← Шапка сайта с навигацией   
+│   │   └── home/index.html   
+│   └── ...  
+├── app_ArtemR/                # [Название отдела]  
+├── app_Blue_Side/             # [Название отдела]  
+├── app_dd/                    # [Название отдела]  
+├── app_German/                # [Название отдела]  
+├── app_Islam/                 # [Название отдела]  
+├── app_Kir_Tarasov/           # [Название отдела]  
+├── app_Vica/                  # [Название отдела]  
+├── app_Vyacheslav/            # [Название отдела]  
+├── oursite/                   # Конфигурация проекта  
+│   ├── settings.py  
+│   ├── urls.py                # Роутинг на все приложения  
+│   └── ...  
+├── manage.py  
+├── requirements.txt  
+└── db.sqlite3                 # Единая база данных (создаётся автоматически)  
 \`\`\`
 
 ## Быстрый старт
