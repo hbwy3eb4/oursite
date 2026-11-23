@@ -8,7 +8,7 @@ $readme = @"
 ## Структура проекта
 
 \`\`\`
-oursite/
+oursite/  
 ├── core/                      # ОБЩЕЕ приложение (модели для всех)     
 │   ├── models.py              → Employee, Department, Position  
 │   └── ...   
