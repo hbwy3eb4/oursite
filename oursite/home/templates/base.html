@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Учебный проект{% endblock %}</title>
+</head>
+<body>
+    <header style="padding: 10px; background: #f0f0f0; margin-bottom: 20px;">
+        <a href="/" style="margin-right: 15px; font-weight: bold;">Главная</a> |
+        <a href="/ArtemR/">ArtemR</a> |
+        <a href="/BlueSide/">Blue_Side</a> |
+        <a href="/dd/">dd</a> |
+        <a href="/German/">German</a> |
+        <a href="/Islam/">Islam</a> |
+        <a href="/KirTarasov/">Kir_Tarasov</a> |
+        <a href="/Vica/">Vica</a> |
+        <a href="/Vyacheslav/">Vyacheslav</a>
+    </header>
+    <main style="padding: 0 20px;">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
