@@ -90,14 +90,14 @@ python manage.py migrate
 
 | Участник    | Отдел         | Модуль          |
 |-------------|---------------|-----------------|
-| ArtemR      | Хозяйственный | app_ArtemR      |
+| ArtemR      | [Отдел]       | app_ArtemR      |
 | Blue_Side   | [Отдел]       | app_Blue_Side   |
 | dd          | [Отдел]       | app_dd          |
 | German      | [Отдел]       | app_German      |
 | Islam       | [Отдел]       | app_Islam       |
 | Kir_Tarasov | [Отдел]       | app_Kir_Tarasov |
 | Vica        | [Отдел]       | app_Vica        |
-| Vyacheslav  | Воинский учёт | app_Vyacheslav  |
+| Vyacheslav  | [Отдел]       | app_Vyacheslav  |
 
 ## Бизнес-процессы (ТЗ от преподавателя)
 
